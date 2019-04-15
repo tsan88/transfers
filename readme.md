@@ -3,7 +3,7 @@
 
 ## About Transfers
 
-Transfers is a web application develop on laravel 5.8.
+Transfers is a web application develop on laravel 5.8. and Laradock
 
 - Register\signup user
 - add Transfer
@@ -23,5 +23,6 @@ Transfers is a web application develop on laravel 5.8.
 
 - clone this repository
 - run 'composer install'
+- copy 'env.example' > '.env'
 - run 'art migrate'
 - run 'db:seed'
