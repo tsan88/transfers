@@ -150,5 +150,5 @@ class TransferController extends Controller
             $validator->errors()->add('id.in', 'Permission denied!');
             return Redirect::back()->withErrors($validator);
         }
-    } 
+    }
 }

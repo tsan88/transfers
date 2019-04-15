@@ -55,6 +55,6 @@ class Transfer extends Model
      */
     public function recipient(): \Illuminate\Database\Eloquent\Relations\HasOne
     {
-        return $this->hasOne('\App\Account', 'account_id_to');
+        return $this->hasOne('\App\Account', 'id', 'account_id_to');
     }
 }
