@@ -10,6 +10,7 @@ Transfers is a web application develop on laravel 5.8.
 - more validation makes on backend
 - 5 last transfer by current user display on home page
 - 1 last ransfer by each user display on home page, if transfer exists
+- console command to do the transfer runing hourly
 
 ## Requirements
 
@@ -22,8 +23,5 @@ Transfers is a web application develop on laravel 5.8.
 
 - clone this repository
 - run 'composer install'
-
-## TODO
-
-- console command to do the transfer
-- job to run commant hourly
+- run 'art migrate'
+- run 'db:seed'
