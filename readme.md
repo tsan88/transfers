@@ -19,7 +19,7 @@ Transfers is a web application develop on laravel 5.8. and Laradock
 - MySQL 5.6+ or MariaDB 10.0.5+
 - SSH (command-line) access to run Composer
 
-## Instaletion
+## Installation
 
 - clone this repository
 - run 'composer install'
