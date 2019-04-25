@@ -5,7 +5,7 @@
 
 Transfers is a web application develop on laravel 5.8. and Laradock
 
-- Register\signup user
+- Signin\signup
 - add Transfer
 - more validation makes on backend
 - 5 last transfer by current user display on home page
@@ -26,3 +26,14 @@ Transfers is a web application develop on laravel 5.8. and Laradock
 - copy 'env.example' > '.env'
 - run 'art migrate'
 - run 'db:seed'
+
+## Rcomendations
+
+- laradock: nginx mysql phpmyadmin redis workspace
+
+## Todo
+
+- unit tests
+- move methods to service
+- add transactions
+- handle exceptions
